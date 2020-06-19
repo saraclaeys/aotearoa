@@ -13,3 +13,55 @@ body {
     max-width: 1400px;
     margin: 0 auto;
 }
+
+/*-------------------- navigation -----------------*/
+
+a[href="#menu"] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    display: block;
+    background: black;
+    color: #F1F1F1F1;
+    width: 60px;
+    height: 60px;
+    font: 400 1.5rem/60px Poppins, Arial, sans-serif;
+    text-align: center;
+    transition: all 500ms;
+}
+
+a[href="#menu"]:hover {
+    background: #666;
+}
+
+.mainnav {
+    position: absolute;
+    z-index: 900;
+    top: 0;
+    right: 0;
+}
+
+.links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #222;
+    width: 250px;
+    height: 100vh;
+    padding: 100px 10px 10px;
+}
+
+.links a {
+    display: block;
+    background: #030303;
+    padding: 1em;
+    margin-bottom: .5em;
+    color: #F1F1F1F1;
+    text-decoration: none;
+    transition: all 500ms;
+}
+
+.links a:hover {
+    background: #666;
+}
