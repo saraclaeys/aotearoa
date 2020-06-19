@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-/*-------------------- navigation -----------------*/
+/*-------------------- main nav -----------------*/
 
 a[href="#menu"] {
     position: absolute;
@@ -45,7 +45,7 @@ a[href="#menu"]:hover {
 .links {
     position: absolute;
     top: 0;
-    right: 0;
+    right: -250;
     background: #222;
     width: 250px;
     height: 100vh;
@@ -64,4 +64,33 @@ a[href="#menu"]:hover {
 
 .links a:hover {
     background: #666;
+}
+
+/*-------------------- main header -----------------*/
+.mainheader {
+    background: black url(../images/slide01.jpg) center/cover no-repeat;
+}
+
+.mainheader .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F1F1F1F1;
+    height: 100vh;
+}
+
+.overlay p {
+    font: 200 1rem/1.6 Poppins, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    border-bottom: 1px solid #F1F1F1F1;
+    padding-bottom: 2em;
+}
+
+h1 {
+    font: 300 3rem/1.6 Poppins, Arial, sans-serif;
+    letter-spacing: .2em;
+    padding-top: .5em;
 }
