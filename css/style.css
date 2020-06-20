@@ -7,11 +7,16 @@
 body {
     font: 300 100%/1.6 Poppins, Arial, sans-serif;
     background: #F1F1F1F1;
+    text-align: center;
 }
 
 .container {
     max-width: 1400px;
     margin: 0 auto;
+}
+
+.responsive-image {
+    max-width: 100%;
 }
 
 /*-------------------- main nav -----------------*/
@@ -93,4 +98,60 @@ h1 {
     font: 300 3rem/1.6 Poppins, Arial, sans-serif;
     letter-spacing: .2em;
     padding-top: .5em;
+}
+
+/*-------------------- section 1 -----------------*/
+
+main section {
+    padding: 3em 1.5em;
+}
+
+#section-one article {
+    background: white;
+    margin-bottom: 2em;
+}
+
+#section-one article:last-of-type {
+    margin: 0;
+}
+
+#section-one article div {
+    padding: 2em;
+}
+
+#section-one article p:first-of-type {
+    font: 300 .8rem/1.6 Poppins, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    border-bottom: 1px solid #F1F1F1F1;
+    padding-bottom: 1.5em;
+    margin-bottom: 1em;
+}
+
+#section-one article h2 {
+    font: 300 1.8rem/1.6 Poppins, Arial, sans-serif;
+    letter-spacing: .1em;
+    margin-bottom: 1em;
+}
+
+#section-one article p:last-of-type {
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+.leesmeer {
+    display: inline-block;
+    border: 2px solid #F1F1F1F1;
+    padding: .5em 1em;
+    border-radius: 2px;
+    color: #999;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all 500ms;
+}
+
+.leesmeer:hover {
+    background: #999;
+    color: #F1F1F1F1;
 }
