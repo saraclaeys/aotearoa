@@ -119,7 +119,8 @@ main section {
     padding: 2em;
 }
 
-#section-one article p:first-of-type {
+#section-one article p:first-of-type,
+#section-two p {
     font: 300 .8rem/1.6 Poppins, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: .3em;
@@ -128,7 +129,8 @@ main section {
     margin-bottom: 1em;
 }
 
-#section-one article h2 {
+#section-one article h2,
+#section-two h2 {
     font: 300 1.8rem/1.6 Poppins, Arial, sans-serif;
     letter-spacing: .1em;
     margin-bottom: 1em;
@@ -153,5 +155,11 @@ main section {
 
 .leesmeer:hover {
     background: #999;
+    color: #F1F1F1F1;
+}
+
+/*-------------------- section 2 -----------------*/
+#section-two {
+    background: black url(../images/slide02.jpg) center/cover no-repeat;
     color: #F1F1F1F1;
 }
