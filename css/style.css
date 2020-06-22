@@ -72,6 +72,7 @@ a[href="#menu"]:hover {
 }
 
 /*-------------------- main header -----------------*/
+
 .mainheader {
     background: black url(../images/slide01.jpg) center/cover no-repeat;
 }
@@ -180,4 +181,29 @@ main section {
 .gallery img {
     margin: .7em 0;
     background: white;
+    padding: 1em;
+}
+
+/*-------------------- footer -----------------*/
+
+.mainfooter {
+    background: #030303;
+    color: #999;
+    padding: 3em 2em;
+}
+
+.socialicons li {
+    display: inline;
+    font-size: 2rem;
+    padding: 0 .3em .3em;
+}
+
+.socialicons a {
+    color: #999;
+    text-decoration: none;
+    transition: all 500ms;
+}
+
+.socialicons a:hover {
+    color: whitesmoke;
 }
