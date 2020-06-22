@@ -79,9 +79,9 @@ a[href="#menu"]:hover {
 
 /*-------------------- main header -----------------*/
 
-.mainheader {
+/* .mainheader {
     background: black url(../images/slide01.jpg) center/cover no-repeat;
-}
+} */
 
 .mainheader .overlay {
     background: rgba(0, 0, 0, 0.5);
@@ -166,7 +166,7 @@ main section {
 /*-------------------- section 2 -----------------*/
 
 #section-two {
-    background: black url(../images/slide02.jpg) center/cover no-repeat;
+    /* background: black url(../images/slide02.jpg) center/cover no-repeat; */
     color: #F1F1F1F1;
 }
 
