@@ -8,6 +8,7 @@ body {
     font: 300 100%/1.6 Poppins, Arial, sans-serif;
     background: #F1F1F1F1;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
 }
 
 .responsive-image {
-    max-width: 100%;
+    width: 100%;
 }
 
 /*-------------------- main nav -----------------*/
@@ -112,10 +113,6 @@ main section {
     margin-bottom: 2em;
 }
 
-#section-one article:last-of-type {
-    margin: 0;
-}
-
 #section-one article div {
     padding: 2em;
 }
@@ -206,4 +203,24 @@ main section {
 
 .socialicons a:hover {
     color: whitesmoke;
+}
+
+.copyright {
+    padding-top: 2em;
+}
+
+/*---------------- breakpoints --------------*/
+
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 5rem;
+        padding-top: 0;
+    }
+
+    #section-one,
+    .gallery {
+        display: grid;
+        grid-template: auto / 1fr 1fr;
+        grid-gap: 2em;
+    }
 }
